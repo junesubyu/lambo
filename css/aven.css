@@ -1,0 +1,292 @@
+body {
+}
+
+.main_bg {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/aven_main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.main_bg ul {
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    top: 160px;
+    left: 130px;
+    z-index: 999;
+}
+.aven02 {
+    position: relative;
+}
+.aven02 img {
+    width: 110%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.main02_box01 {
+    width: 1310px;
+    height: 620px;
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.main02_left {
+    position: absolute;
+    width: 475px;
+    height: 450px;
+    top: 150px;
+    left: 150px;
+    color: #202020;
+}
+.main02_left img {
+    width: 390px;
+    height: 58px;
+}
+.main02_left p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-top: 22px;
+}
+.main02_img01 {
+    position: absolute;
+    top: 0;
+    right: -60%;
+    width: 1300px;
+    height: 615px;
+    background-image: url(../images/aven_main021.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.main02_box02 {
+    width: 1310px;
+    height: 700px;
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.main02_img02 {
+    position: absolute;
+    top: 0;
+    right: -35%;
+    width: 1310px;
+    height: 600px;
+    background-image: url(../images/aven_main022.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+.main02_img03 {
+    position: absolute;
+    top: 10%;
+    left: -45%;
+    width: 1310px;
+    height: 600px;
+    background-image: url(../images/aven_main023.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+.main02_box03 {
+    width: 1310px;
+    height: 700px;
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.main02_img04 {
+    position: absolute;
+    top: -3%;
+    left: -71%;
+    width: 1310px;
+    height: 600px;
+    background-image: url(../images/aven_main024.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+.main02_right {
+    position: absolute;
+    top: 65px;
+    right: 200px;
+    color: #202020;
+}
+.main02_right h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.main02_right p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+
+.passaven {
+    width: 1600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.passaven h1 {
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #202020;
+    margin-bottom: 15px;
+}
+.pass {
+    width: 120px;
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+}
+.pass a {
+    /* display: inline-block; */
+}
+
+.pass_left a img:hover {
+    background-image: url(../images/button_sdhoverleft.png);
+}
+.pass_right a img:hover {
+    background-image: url(../images/button_sdhover.png);
+}
+.pass img {
+    width: 45px;
+    height: 52px;
+}
+
+/* main_03 */
+.aven_03 {
+    position: relative;
+}
+
+.aven_03bg {
+    width: 100%;
+    height: 70vh;
+    background-image: url(../images/aven_main03.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.aven_03 a {
+    width: 50vh;
+    height: 40px;
+    position: absolute;
+    bottom: 20vh;
+    left: 20vh;
+}
+.aven_03 .lambo_name:after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+    height: 1px;
+    background-color: #cbcbca;
+}
+
+.aven_03 .lambo_name h2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #202020;
+}
+
+/* .aven_03 .lambo_name a {
+    display: inline-block;
+    position: relative;
+} */
+.aven_03 a:after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    width: 0;
+    height: 1px;
+    background-color: #202020;
+    transition: all 0.5s;
+}
+
+.aven_03 a:hover:after {
+    width: 100%;
+}
+
+/* main_04 */
+.aven_04bg {
+    width: 100%;
+    height: 70vh;
+    background-image: url(../images/aven_main04.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.pass_02 {
+    display: flex;
+    position: relative;
+}
+.pass_02 img {
+    width: 45px;
+    height: 52px;
+}
+.pass_02 .pass02_left {
+    position: absolute;
+    top: 35vh;
+    left: 10vh;
+}
+
+.pass_02 .pass02_right {
+    position: absolute;
+    top: 35vh;
+    right: 10vh;
+}
+
+.pass02_left a img:hover {
+    background-image: url(../images/buttonl_hover.png);
+}
+.pass02_right a img:hover {
+    background-image: url(../images/button_hover.png);
+}
+
+/* main_05 */
+.aven_05 {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+}
+.aven_05 div {
+    width: 50%;
+    overflow: hidden;
+}
+.aven_05 a img {
+    width: 100%;
+    height: 100%;
+}
+
+.aven_05 a img:hover {
+    transform: scale(1.1);
+    transition: transform 0.35s;
+}

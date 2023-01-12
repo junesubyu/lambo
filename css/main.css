@@ -152,7 +152,7 @@ body {
 }
 
 .main .img01_box a img:hover {
-    background-image: url(../images/button_hover.png);
+    background-image: url(../images/button2.png);
 }
 
 /* main_02 */
@@ -189,7 +189,7 @@ body {
     margin-bottom: 90px;
 }
 .main_02 .img02_box .buttons .btnimg_01 a img:hover {
-    background-image: url(../images/button_lefthover.png);
+    background-image: url(../images/button_1shover.png);
 }
 .main_02 .img02_box .buttons .btnimg_02 a img:hover {
     background-image: url(../images/button_shover.png);
@@ -263,7 +263,7 @@ body {
 }
 
 .main_03 .img03_box .buttons_03 a img:hover {
-    background-image: url(../images/button_sdhover.png);
+    background-image: url(../images/button_mdhover.png);
 }
 
 .main_03 .img03_box h5 {
@@ -481,11 +481,14 @@ body {
 }
 .bottom h6 {
     position: absolute;
+    position: fixed;
+    background-color: #202020;
     bottom: 0;
     left: 0;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
+    z-index: 999;
 }
 
 .bottom .bottom_first {
